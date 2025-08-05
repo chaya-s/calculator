@@ -1,0 +1,30 @@
+.calculator-box {
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 0 20px rgb(201, 81, 81);
+    border-radius: 12px;
+    padding: 20px;
+}
+#calc-display {
+    height: 60px;
+    font-size: 1.5rem;
+    background-color: rgb(185, 214, 209);
+}
+.button-container button {
+    height: 60px;
+    font-size: 1.2rem;
+    background-color: rgb(222, 149, 41);
+    color: #000;
+}
+.button-container .btn-secondary:hover{
+    background-color: rgb(108, 100, 105);
+    color: #000;
+}
+.button-container .btn-warning:hover{
+    background-color: rgb(191, 209, 58);
+    color: #000;
+}
+.button-container .btn-success:hover{
+    background-color: rgb(8, 109, 30);
+    color: #000;
+}
